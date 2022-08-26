@@ -1,0 +1,65 @@
+@media (max-width: 740px) {
+    
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden ;
+    }
+
+    #header .ti-search {
+        display: none;
+    }
+    
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        display: block;
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 2px 34px;;
+    }
+
+    #content .member-items {
+        margin-top: 48px;
+        width: 100%;
+    }
+
+    #content .member1-avatar {
+        width: 60%;
+
+    }
+    #content .s-col-full {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important ;
+    }
+
+}
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+}
